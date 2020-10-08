@@ -1,4 +1,8 @@
 
+
+
+#Algoritmo de ordenamiento de enteros orden O(n)
+
 def countSort(arr): 
   
     # The output character array that will have sorted arr 
