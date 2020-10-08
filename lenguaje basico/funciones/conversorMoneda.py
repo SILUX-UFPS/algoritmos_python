@@ -1,3 +1,6 @@
+
+#Ejemplo de uso de funciones con un conversor de dolar a diferentes monedas
+
 menu="""
 Bienvenido al conversor de monedas 👛💲💰
 1- Peso Colombiano
