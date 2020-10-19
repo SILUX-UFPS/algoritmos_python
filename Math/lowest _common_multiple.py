@@ -1,4 +1,4 @@
-#Calculo del mínimo común múltiplo usando el máximo común divisor. Agregar Greatest Common Divisor.
+#Calculo del mínimo común múltiplo usando el máximo común divisor.
 def gcd(a, b):
     if (b == 0):
         return a
