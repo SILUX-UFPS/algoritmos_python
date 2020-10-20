@@ -1,3 +1,4 @@
+#Unión de 2 vectores de longitud n, para crear un tercer vector con los elementos de ambos ordenados ascendentemente
 def union(arrA,arrB):
      c = []
      j = 0
