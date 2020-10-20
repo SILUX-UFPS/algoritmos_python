@@ -1,3 +1,4 @@
+#Dado un numero detecta si es perfecto (un numero perfecto es aquel que la suma de sus divisores es igual al propio numero)
 def NumeroPerfecto(num):
   suma = 0
   for i in range(1,num):
