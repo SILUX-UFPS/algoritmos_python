@@ -1,3 +1,4 @@
+#Invierte una cadena de texto para saber si es palindroma
 def invertir(palabra):
     invertida = ''
     for carac in range(len(palabra)-1,-1,-1):
