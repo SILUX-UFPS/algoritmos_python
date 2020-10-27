@@ -4,46 +4,46 @@ diccionarios = {
     "edad": 5
 }
 
-print (diccionarios)
+print(diccionarios)
 
 
-#para eliminar
+# para eliminar
 
 diccionarios.pop("nombre")
 del diccionarios['raza']
 
 
-#para copiar
+# para copiar
 
-diccionario=dict(diccionarios)
+diccionario = dict(diccionarios)
 
-#profundizacion de diccionarios
+# profundizacion de diccionarios
 
 gatitos = {
     "Flufly": {
         "nombre": "Flufly",
         "edad": 5
     },
-    "Manba":{
+    "Manba": {
         "nombre": "Black manba",
         "edad": 20
     }
 }
 
-chico={
+chico = {
     "nombre": "victor",
     "edad": 2
 }
-alto={
+alto = {
     "nombre": "ben",
     "edad": 5
 }
 
-perros ={
-    "chico":chico,
-    "alto":alto
+perros = {
+    "chico": chico,
+    "alto": alto
 }
 
-print (perros)
+print(perros)
 
 conejos = dict(nombre="Pin", edad=3)

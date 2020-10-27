@@ -7,13 +7,13 @@
 """
 nota = float(input("Ingrese la nota: "))
 
-#nota => [0,5]
-valida = nota>=0 and nota<=5
-muy_deficiente = nota>=0 and nota<3
-deficiente = nota>=3 and nota<3.5
-aceptable = nota>=3.5 and nota<4
-buena = nota>=4 and nota<4.5
-excelente = nota>=4.5 and nota<=5
+# nota => [0,5]
+valida = nota >= 0 and nota <= 5
+muy_deficiente = nota >= 0 and nota < 3
+deficiente = nota >= 3 and nota < 3.5
+aceptable = nota >= 3.5 and nota < 4
+buena = nota >= 4 and nota < 4.5
+excelente = nota >= 4.5 and nota <= 5
 
 print(f"Nota valida: {valida}")
 print(f"Nota muy deficiente: {muy_deficiente}")

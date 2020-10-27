@@ -1,15 +1,15 @@
 numero = int(input("Ingrese el numero: "))
 
-#1234
-primer = numero%10
-#1234/10 = 123%10 = 3
-segundo = int((numero/10)%10)
-#1234/100 = 12%10 = 2
-tercer = int((numero/100)%10)
-#1234/1000 = 1%10 = 1
-cuarto = int((numero/1000)%10)
+# 1234
+primer = numero % 10
+# 1234/10 = 123%10 = 3
+segundo = int((numero/10) % 10)
+# 1234/100 = 12%10 = 2
+tercer = int((numero/100) % 10)
+# 1234/1000 = 1%10 = 1
+cuarto = int((numero/1000) % 10)
 
-#1234 -> 4321
+# 1234 -> 4321
 primer_nuevo = primer*1000
 segundo_nuevo = primer_nuevo+(segundo*100)
 tercer_nuevo = segundo_nuevo+(tercer*10)

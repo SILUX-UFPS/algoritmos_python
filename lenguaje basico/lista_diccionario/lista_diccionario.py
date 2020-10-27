@@ -1,5 +1,5 @@
 
-#Lista
+# Lista
 """
 print("-----Lista:-----")
 lista = ["amarillo", "azul", "rojo", "verde", "morado", "naranja"]
@@ -25,11 +25,11 @@ print("La lista es: {}".format(lista))
 """
 
 print("-----Diccionarios:-----")
-#Diccionarios
+# Diccionarios
 diccionario = {
-    "nombre" : "Chus",
-    "correo" : "chus@gmail.com",
-    "edad"   : 17
+    "nombre": "Chus",
+    "correo": "chus@gmail.com",
+    "edad": 17
 }
 
 """

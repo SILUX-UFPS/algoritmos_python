@@ -1,16 +1,19 @@
-#Invierte una cadena de texto para saber si es palindroma
+# Invierte una cadena de texto para saber si es palindroma
+
 def invertir(palabra):
     invertida = ''
-    for carac in range(len(palabra)-1,-1,-1):
-        invertida= invertida + palabra[carac]
+    for carac in range(len(palabra)-1, -1, -1):
+        invertida = invertida + palabra[carac]
     return invertida
-## metodo para saber si una cadena es palindrome
+# metodo para saber si una cadena es palindrome
+
+
 def palindrome(palabra):
-     invertido = invertir(palabra)
-     if(invertido==palabra):
-         return True
-     else:
-         return False
+    invertido = invertir(palabra)
+    if(invertido == palabra):
+        return True
+    else:
+        return False
 
 
 x = 'tengo'
@@ -23,7 +26,7 @@ print(palindrome(y))
 print(palindrome(z))
 print(palindrome(v))
 
-##Otro método para comparación de cadenas
+# Otro método para comparación de cadenas
 f = open("asd.txt")
 
 aux = ""
