@@ -1,17 +1,17 @@
-#495204495216
+# 495204495216
 numero = int(input("Número: "))
 
-horas2 = int(numero%100)
-#4952044952
-minutos2 = int( (numero/100)%100 )
-#49520449
-segundos2 = int( (numero/10000)%100 )
+horas2 = int(numero % 100)
+# 4952044952
+minutos2 = int((numero/100) % 100)
+# 49520449
+segundos2 = int((numero/10000) % 100)
 
-#495204 495216
+# 495204 495216
 numero_aux = int((numero/1000000))
-hora1 = int(numero_aux%100)
-minutos1 = int((numero_aux/100)%100)
-segundos1 = int((numero_aux/10000)%100)
+hora1 = int(numero_aux % 100)
+minutos1 = int((numero_aux/100) % 100)
+segundos1 = int((numero_aux/10000) % 100)
 
 diferencia = horas2 - hora1
 

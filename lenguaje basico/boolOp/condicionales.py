@@ -1,4 +1,4 @@
-#Ejemplo de condicionales con juego de adivinar numero
+# Ejemplo de condicionales con juego de adivinar numero
 
 print("Piense un número de 1 a 4.")
 print("Conteste S (sí) o N (no) a mis preguntas.")

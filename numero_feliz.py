@@ -1,4 +1,4 @@
-#En un rango de números del 0-15 imprime una lista dando a conocer cuales cumplen los requisitos para ser un numero feliz y cuales no
+# En un rango de números del 0-15 imprime una lista dando a conocer cuales cumplen los requisitos para ser un numero feliz y cuales no
 def es_feliz(num):
     r = num
     suma_cuadrados = []
@@ -11,6 +11,7 @@ def es_feliz(num):
             return False
 
         suma_cuadrados.append(r)
+
 
 for i in range(15):
     if es_feliz(i):
