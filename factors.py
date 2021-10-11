@@ -1,3 +1,5 @@
+#Define los factores de un numero
+
 def factors_of_a_number(num: int) -> list:
     """
     >>> factors_of_a_number(1)
