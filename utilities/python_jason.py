@@ -4,9 +4,11 @@
 import json
 
 # {key:value mapping}
-a = {"name": "John",
+a = {
+     "name": "John",
      "age": 31,
-     "Salary": 25000}
+     "Salary": 25000
+}
 
 # conversion to JSON done by dumps() function
 b = json.dumps(a)
