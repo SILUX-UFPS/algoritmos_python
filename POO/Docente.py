@@ -1,4 +1,4 @@
-class Persona:
+class Docente:
 
     def __init__(self,codigo, salario, area):
         self.codigo = codigo
